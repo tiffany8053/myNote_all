@@ -1,0 +1,24 @@
+@mixin light-green {
+    background-color: rgb(144, 196, 196);
+}
+
+@mixin dark-green-border {
+    border-color: rgb(144, 196, 196);
+}
+
+@mixin dark-green {
+    background-color: rgba(175, 238, 238, 0.495);
+}
+
+@mixin button-style {
+    display: inline;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bolder;
+    outline: none;
+    cursor: pointer;
+}

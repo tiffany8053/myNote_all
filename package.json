@@ -1,0 +1,25 @@
+{
+  "name": "myNote",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.8.0",
+    "@vuepress/plugin-back-to-top": "^1.8.0",
+    "node-sass": "^5.0.0",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.1.0",
+    "sass-loader": "^10.1.1",
+    "vuepress": "^1.8.0",
+    "vuepress-plugin-flowchart": "^1.4.3",
+    "vuepress-plugin-mermaidjs": "^1.8.1"
+  },
+  "dependencies": {
+    "vuepress-theme-vue": "^1.1.1"
+  }
+}
