@@ -1,1 +1,0 @@
-### this is methods目錄下的 way頁面

@@ -14,6 +14,11 @@ module.exports = {
     // tags: ["VuePress"],
     themeConfig: {
         // tags: '/tags',
+        repo: 'tiffany8053/myNote_all',
+        editLinks: true,
+        docsDir: 'docs',
+        docsBranch: 'master',
+        editLinkText: '查看原始碼',
         mdEnhance: {
             flowchart: true,
         },
@@ -66,7 +71,7 @@ module.exports = {
                         title: '指令手冊',
                         path: '/components/methods/',
                         children: [ 
-                            {title: 'way01', path: '/components/methods/way01' },
+                            {title: 'config設定', path: '/components/methods/configSetting' },
                             {title: 'way02', path: '/components/methods/way02' },
                         ]
                     },
